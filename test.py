@@ -16,7 +16,6 @@ def write_json(data_for_saving, path):
     with open(path, 'w') as json_file:
         json.dump(data_for_saving, json_file)
 
-
 # def read_mongo():
 #     db = MongoClient('127.0.0.1', 27018)['lgt_analytics']
 #     cursor = db['filtered_messages'].find().skip(2200).limit(100)
